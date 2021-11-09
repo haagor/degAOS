@@ -43,5 +43,39 @@ def endringmaster_plot(nb_try):
 	plt.title('Endringmaster')
 	plt.show()
 
+def thunderers_round_var1(enemy_save):
+	aethershot = attack(2,3,4,1,enemy_save,1)
+	double = attack(4,3,4,1,enemy_save,1)
+	fumigator = attack(3,3,3,1,enemy_save,1)
+	aethercannon = attack(1,4,2,2,enemy_save,-3)
+	mortar = attack(1,4,3,0,enemy_save,-3)
+	return aethershot + double + fumigator + aethercannon + mortar
 
-endringmaster_plot(100000)
+def thunderers_plot(nb_try):
+	wounds = []
+	for i in range(nb_try):
+		wounds.append(thunderers_round_var1(6))
+
+	plt.boxplot(wounds)
+	plt.title('Thunderers')
+	plt.show()
+
+def skywardens_round_var1(enemy_save, nb_unit):
+	skypike = 0
+	for i in range(nb_unit):
+		skypike += attack(2,4,3,1,enemy_save,-3)
+	gun = attack(1,4,5,0,enemy_save,1)
+	skyhook = attack(1,4,3,2,enemy_save,3)
+	drill = attack(2,3,3,1,enemy_save,-3)
+	return skypike + gun + skyhook + drill
+
+def skywardens_plot(nb_try):
+	wounds = []
+	for i in range(nb_try):
+		wounds.append(skywardens_round_var1(6, 7))
+
+	plt.boxplot(wounds)
+	plt.title('Skywardens')
+	plt.show()
+
+skywardens_plot(100000)
