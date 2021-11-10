@@ -6,7 +6,7 @@
 
 > enemy have no save
 
-![](https://github.com/haagor/degAOS/blob/main/img/endrinmasterdirigiblePlot1.png)
+![](https://github.com/haagor/degAOS/blob/main/img/endringmasterdirigiblePlot1.png)
 
 ## 5 THUNDERERS
 
