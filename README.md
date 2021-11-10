@@ -6,19 +6,19 @@
 
 > enemy have no save
 
-![](https://github.com/haagor/degAOS/blob/main/img/endrinmasterDirigible.png)
+![](https://github.com/haagor/degAOS/blob/main/img/endrinmasterdirigiblePlot1.png)
 
 ## 5 THUNDERERS
 
 > enemy have no save
 
-![](https://github.com/haagor/degAOS/blob/main/img/thunderers.png)
+![](https://github.com/haagor/degAOS/blob/main/img/thunderersPlot1.png)
 
 ## 9 SKYWARDENS
 
 > enemy have no save
 
-![](https://github.com/haagor/degAOS/blob/main/img/skywardens.png)
+![](https://github.com/haagor/degAOS/blob/main/img/skywardensPlot1.png)
 
 ---
 
